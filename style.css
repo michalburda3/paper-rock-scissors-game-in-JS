@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500i');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #093E4B;
+	color: #D2D7D3;
+	font-size: 18px;
+}
+
+h3 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: 500;
+	font-style: italic;
+	color: #ECF0F1;
+	font-size: 44px;
+}
+
+
+
+.row {
+	margin: 10px;
+}
+
+.btn {
+	margin: 35px;
+	padding: 15px;
+	border-radius : 10px;
+	font-size: 18px;
+	width: 150px;
+	height: 60px;
+	-webkit-box-shadow: 24px 21px 28px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 24px 21px 28px -1px rgba(0,0,0,0.6);
+	box-shadow: 24px 21px 28px -1px rgba(0,0,0,0.6);
+}
+
+#js-playerPick_rock {
+	background-color: #6C7A89;
+	color: #ECF0F1;
+}
+
+#js-playerPick_paper {
+	background-color: #ECF0F1;
+	color: #6C7A89;
+}
+
+
+#js-playerPick_scissors{
+	background-color: #EC644B;
+	color: #A92810;
+
+}
+
+.btn>span>i {
+	font-size: 24px;
+	margin: 3px;
+}
+
+#js-newGameButton {
+	background-color: #E4F1FE;
+
+	color: #6C7A89;
+}
+
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.btn:active {
+-webkit-box-shadow: 24px 21px 28px -1px rgba(0,0,0,0.4);
+	-moz-box-shadow: 24px 21px 28px -1px rgba(0,0,0,0.4);
+	box-shadow: 24px 21px 28px -1px rgba(0,0,0,0.4);
+}
