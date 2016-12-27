@@ -47,7 +47,7 @@ var playerPointsElem = document.getElementById('js-playerPoints'),
     computerPointsElem = document.getElementById('js-computerPoints'); 
 
 function newGame() { 
-  player.name = prompt('Graczu, wpisz swoje imię', 'imię gracza'); 
+  player.name = prompt('Please, type your name', 'Players name'); 
   if (player.name) { 
     player.score = computer.score = 0; 
     gameState = 'started'; 
@@ -94,10 +94,10 @@ function checkRoundWinner(playerPick, computerPick) {
     }
     			
     if (winnerIs == 'player') { 
-        playerResultElem.innerHTML = "Wygrana!"; 
+        playerResultElem.innerHTML = "You win!"; 
         player.score++;								
     } else if (winnerIs == 'computer') { 
-        computerResultElem.innerHTML = "Wygrana!"; 
+        computerResultElem.innerHTML = "You win!"; 
         computer.score++;
     }
 }
@@ -121,9 +121,9 @@ function setGamePoints() {
 function winner() {
 
     if (player.score >= 10 ) {
-       alert('Wygrałeś!');
+       alert('You win!');
     }
     else if (computer.score >= 10) {
-        alert('Przegrałeś!');
+        alert('You lose!');
     }
 }
